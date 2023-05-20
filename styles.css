@@ -1,0 +1,195 @@
+*{
+    margin:0;
+    border:0;
+    box-sizing:border-box;
+    text-decoration:none;  
+  }
+  
+  p{
+    font-family:Tahoma;
+  }
+  
+  body{
+    background:#eee;
+  }
+  
+  #header{
+    width:100%;
+    height:150px;
+    display:flex;
+  }
+  
+  #header-img{
+    width:40%;
+    height:100%;
+    object-fit:contain;
+    justify-content:flex-start;
+    background:#eee;
+  }
+  
+  #nav-bar{
+    background:#eee;
+    width:60%;
+    height:100%;
+    display:flex;
+    flex-flow:row wrap;
+    padding-left:250px;
+    justify-content:center;
+  
+  }
+  
+  nav ul{
+    font-size:25px;
+    display:flex;
+    margin:40px;
+  }
+  
+  nav ul a{
+    color:black;
+    padding:15px;
+  }
+  
+  .container{
+    width:100%;
+    height:200px;  
+    background:#eee;
+    display:flex;
+    flex-flow:column wrap;
+    align-items:center;
+    padding:10px;
+  }
+  
+  #form{
+    margin:20px;
+  }
+  #email{
+    width:230px;
+    height:30px;
+  }
+  #submit{
+    width:165px;
+    height:40px;
+    border-radius:60px;
+    color:black;
+    font-weight:1000;
+    background:#f1c40f;
+  }
+  
+  #features{
+    width:100%;
+    height:400px;
+    background:#eee;
+    display:flex;
+    flex-flow:column wrap;
+    align-items:center;
+    justify-content:space-evenly;
+  }
+  .boxx1,.boxx2,.boxx3{
+    display:flex;
+    flex-flow:row wrap;
+  }
+  
+  .boxx2,.boxx3{
+    padding-left:150px;
+  }
+  
+  .icon,.desc{
+    margin-left:20px;
+    padding-left:10px;
+  }
+  
+  .desc{
+    line-height:35px;
+  }
+  
+  
+  #videobox{
+    width:100%;
+    height:315px;
+    background:#eee;
+    display:flex;
+    flex-flow:row wrap;
+    justify-content:center;
+  }
+  
+  #video{
+    width:500px;
+    height:100%;
+  }
+  
+  #pricing{
+    width:100%;
+    height:320px;
+    background:#eee;
+    display:flex;
+    margin-top:30px;
+    flex-flow:row wrap;
+    justify-content:space-evenly;
+  }
+  
+  .box1,.box2,.box3{
+    width:300px;
+    height:100%;
+    border: 1px solid #000;
+    border-radius: 3px;  
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+  }
+  
+  .heading{
+    display:flex;
+    justify-content:center;
+    background-color: #ddd;
+    margin-bottom:35px;
+    width:100%;
+    height:20%;
+  }
+  
+  .heading p{
+    margin:auto;
+  }
+  
+  #pricing ol{
+    margin:auto;
+    font-family:Book Antiqua,sans-serif;
+    line-height:40px;
+  }
+  
+  ol li{
+    list-style-type: none;
+  }
+  
+  .main-price1{
+    position:relative;
+    left:40px;;
+  }
+  .main-price2{
+    position:relative;
+    left:40px;;
+  }.main-price3{
+    position:relative;
+    left:40px;;
+  }
+  #pricing button{
+      border: 0;
+      width:200px;
+      height:40px;
+      margin:auto;
+      background-color: #f1c40f;
+      font-weight: 400;  
+      border-radius:25px;
+  }
+  
+  
+  .footer{
+    width:100%;
+    font-size:25px;
+    margin-top:50px;
+    padding-right:30px;
+    line-height:35px;
+    height:120px;
+    background:#BEBEBE;
+    display:flex;
+    justify-content:flex-end;
+  }
